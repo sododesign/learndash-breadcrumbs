@@ -1,0 +1,6 @@
+Insert this code into your functions.php
+Or, wrap it in a shortcode with this:
+http://codex.wordpress.org/Function_Reference/add_shortcode
+
+Set your base 'learning area' URL here, on this line:
+$learning_url = '<a href="'.site_url().'/learning/">Learning</a>';
