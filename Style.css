@@ -1,0 +1,36 @@
+/*------------------------
+       BREADCRUMBS :
+-------------------------*/
+#breadcrumbs {
+    margin: 5px 0px 5px 0px;
+    padding-left: 30px;
+    background-color: inherit;
+}
+
+.container.main-content-area {
+    margin-top: 0px;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumb {
+        float: left !important;
+    }
+}
+
+.breadcrumb {
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    font-weight: 400;
+    color: #999;
+    margin-top: 5px;
+}
+
+.breadcrumb-separator {
+    color: #AAAAAA;
+    font-size: 115%;
+    line-height: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
